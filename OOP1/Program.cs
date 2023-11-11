@@ -15,7 +15,7 @@
             Product product2 = new Product { Id = 2, CategoryId = 5, UnitsInStock = 5, ProductName = "Kalem", UnitPrice = 35 };
             ProductManager productManager = new ProductManager();
             productManager.Add(product1);
-            Console.WriteLine(product1.ProductName);
+            Console.WriteLine(product1.ProductName);  
 
 
         }
