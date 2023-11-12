@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GenericsIntro
 {
-    internal class MyList<T>
+    public class MyList<T>
     {
         T[] items;
         public MyList()
